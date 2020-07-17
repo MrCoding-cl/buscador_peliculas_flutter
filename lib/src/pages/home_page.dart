@@ -27,6 +27,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             _swiperTarjetas(),
+            _footer(),
           ],
         ),
       )
@@ -60,6 +61,13 @@ class HomePage extends StatelessWidget {
 
 
 
+  }
+
+//  Widget _footer() {
+//    return Container(
+//      width: double.infinity,
+//      child: ,
+//    );
   }
 
 
